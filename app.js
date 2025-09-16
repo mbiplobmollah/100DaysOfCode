@@ -1,6 +1,12 @@
-let a = 10 + 80 ;
-let b = 20 + 70 ;
-let c = 30 + 60 ;
-let d = 40 + 50 ;
-let e = 50 + 40 ;
-let f = 60 + 30 ;
+let a = myFunction(10,20) ;
+let b = myFunction(30,50) ;
+let c = myFunction(40,60) ;
+let d = myFunction(50,70) ;
+let e = myFunction(60,80) ;
+let f = myFunction(70,90) ;
+
+function myFunction(a, b){
+    return a+b*1;
+}
+
+console.log(a,b,c,d,e,f)
