@@ -10,3 +10,10 @@ function myFunction(a, b){
 }
 
 console.log(a,b,c,d,e,f)
+
+
+/**  
+ * we have data, make a variable for it
+ * when to use array and object
+
+*/
